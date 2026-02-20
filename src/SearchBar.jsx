@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import TaskList from "./TaskList";
+import TaskList from "./components/TaskList";
 
 function SearchBar() {
   const [query, setQuery] = useState("");
